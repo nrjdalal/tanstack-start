@@ -1,0 +1,27 @@
+{
+  "projectName": "tanstack-start",
+  "mode": "file-router",
+  "typescript": true,
+  "tailwind": true,
+  "packageManager": "bun",
+  "git": true,
+  "addOnOptions": {
+    "drizzle": {
+      "database": "postgresql"
+    }
+  },
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": [
+    "start",
+    "compiler",
+    "drizzle",
+    "form",
+    "shadcn",
+    "t3env",
+    "table",
+    "tanstack-query",
+    "eslint",
+    "nitro"
+  ]
+}
